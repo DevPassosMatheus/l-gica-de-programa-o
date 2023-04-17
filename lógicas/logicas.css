@@ -1,0 +1,64 @@
+html, body {
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+background-color: #F3ECEA;
+}
+
+header {
+position: relative;
+height: 150px; width: 100%;
+background-color: #F3ECEA;
+}
+
+.container1, .container3, .container5 {
+position: relative;    
+height: 830px; width: 100%;
+background-color: #282A35;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+
+.container2, .container4, .container6 {
+position: relative;    
+height: 830px; width: 100%;
+background-color: #F3ECEA;
+display: flex;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+}
+
+.container1 div, .container3 div, .container5 div {
+background-color: #F3ECEA;
+height: 650px; width: 330px;
+text-align: center;
+}
+
+.container2 div, .container4 div, .container6 div {
+background-color: #282A35;
+height: 650px; width: 330px;
+text-align: center;
+color: white;
+}
+
+
+section {
+background: #282A35;
+width: 320px;
+text-align: center;
+color: white;
+overflow-y: scroll;
+overflow-x: hidden;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+}
+
+.UltimoEx {
+    background-color: #282A35;
+    height: 650px; width: 330px;
+    text-align: center;
+    color: white;
+}
